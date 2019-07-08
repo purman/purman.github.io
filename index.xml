@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wzero文档</title>
+    <link>/</link>
+    <description>Recent content on wzero文档</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>/blog.html</link>
+      <pubDate>Thu, 04 Jul 2019 18:19:13 +0800</pubDate>
+      
+      <guid>/blog.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>/community.html</link>
+      <pubDate>Thu, 04 Jul 2019 18:19:05 +0800</pubDate>
+      
+      <guid>/community.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publish</title>
+      <link>/docs/publish.html</link>
+      <pubDate>Thu, 04 Jul 2019 18:18:51 +0800</pubDate>
+      
+      <guid>/docs/publish.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Write</title>
+      <link>/docs/write.html</link>
+      <pubDate>Thu, 04 Jul 2019 18:18:40 +0800</pubDate>
+      
+      <guid>/docs/write.html</guid>
+      <description>文档编写 环境搭建 wzero平台基于 Hugo 开发，需要您预先在本地安装最新版Hugo，Hugo官方提供了非常详细的各平台（Mac OS、Windows、Linux等）安装方式，您可以根据官方教程自行安装。
+ 注意：wzero文档使用Git作为版本管理，请务必先确保本机已经按照好Git，如果没有安装，请去Git官网下载安装。
+ 不过，推荐使用我们提供的脚本来搭建文档编写环境，更加方便：
+1.下载对应系统安装脚本
+ Windows Linux Mac OS  2. 运行脚本创建项目
+ Windows下右键以管理员身份运行脚本 Linux或Mac下终端运行 bash eco-docs.sh 命令   注意：输入项目名建议使用项目英文简称，将用于创建项目文件夹
+ 3.浏览器访问项目文档
+创建项目后，会自动运行项目文档，打开浏览器访问 http://localhost:1313 查看文档。
+编写工具 可以使用任何您喜欢的文本编辑器来编写Markdown，如果您还不太了解Markdown，推荐您使用 Visual Studio Code，它是一个跨平台（支持Mac OS、Windows、Linux）的文本编辑器，对于Markdown也提供了非常友好的支持。
+快速上手 下面以Mac平台为例，演示文档创建及编写的整个过程：
+Step 1：创建文档 终端运行 bash eco-docs.sh
+会提示 please input your project name：，这里输入 eco-doc-demo，表示四海文档示例教程。
+接下来会提示 Preview now? 是否预览，输入 y 选择直接预览。
+浏览器访问 http://localhost:1313，出现如下界面，则表示示例文档创建成功。
+Step 2：修改文档名称  注意：用喜爱的编辑器导入整个示例文档项目，编辑文档内容。
+ 修改 /data/menu/menu.toml，修改内容如下：
+name = &amp;quot;wzero示例&amp;quot; description = &amp;quot;这是wzero文档的示例&amp;quot;  menu.</description>
+    </item>
+    
+    <item>
+      <title>Builtin</title>
+      <link>/docs/builtin.html</link>
+      <pubDate>Thu, 04 Jul 2019 18:18:28 +0800</pubDate>
+      
+      <guid>/docs/builtin.html</guid>
+      <description> 预制规则 支持Markdown wzero文档平台支持Markdown语法标签，请参考Markdown教程。
+兼容HTML Markdown中兼容HTML标签，可以利用HTML实现Markdown不支持的复杂功能。
+ 注意：由于Markdown编写比HTML更简单，强烈建议对于Markdown支持的功能不要使用HTML来代替实现。  预制引用 Markdown默认只提供Info类型引用，为了方便使用，我们预制了Warning、Danger、Success引用样式。
+Warning &amp;lt;blockquote class=&amp;quot;warning&amp;quot;&amp;gt; Warning &amp;lt;/blockquote&amp;gt;  Warning  Danger &amp;lt;blockquote class=&amp;quot;danger&amp;quot;&amp;gt; Danger &amp;lt;/blockquote&amp;gt;  Danger  Success &amp;lt;blockquote class=&amp;quot;success&amp;quot;&amp;gt; Success &amp;lt;/blockquote&amp;gt;  Success  Info &amp;gt; 引用  或者
+&amp;lt;blockquote&amp;gt; 引用 &amp;lt;/blockquote&amp;gt;  或者
+&amp;lt;blockquote class=&amp;quot;info&amp;quot;&amp;gt; 引用 &amp;lt;/blockquote&amp;gt;  引用  </description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/docs/markdown.html</link>
+      <pubDate>Thu, 04 Jul 2019 17:49:11 +0800</pubDate>
+      
+      <guid>/docs/markdown.html</guid>
+      <description>Markdown教程 标题 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题  以上标题分别对应着HTML中的&amp;lt;h1&amp;gt;、&amp;lt;h2&amp;gt;、&amp;lt;h3&amp;gt;、&amp;lt;h4&amp;gt;、&amp;lt;h5&amp;gt;、&amp;lt;h6&amp;gt;标签。
+强调 加粗 **这句话会被加粗** __这句话会被加粗__  加粗对应着HTML中的&amp;lt;strong&amp;gt;标签。
+###斜体
+*这句话会被斜体显示* _这句话会被斜体显示_  斜体对应着HTML中的&amp;lt;em&amp;gt;标签。
+无序列表 * Item 1 * Item 2 * Item 2a * Item 2b  或者
+- Item 1 - Item 2 - Item 2a - Item 2b  或者
+* Item 1 * Item 2 - Item 2a - Item 2b  或者</description>
+    </item>
+    
+    <item>
+      <title>Introduce</title>
+      <link>/docs/introduce.html</link>
+      <pubDate>Thu, 04 Jul 2019 17:46:11 +0800</pubDate>
+      
+      <guid>/docs/introduce.html</guid>
+      <description>介绍 wzero文档平台用于发布产品文档，提供一站式的产品文档解决方案，文档采用Markdown编写，编写简单、部署方便，wzero文档平台提供默认文档主题，主题也可以自由定制。·</description>
+    </item>
+    
+    <item>
+      <title>Product</title>
+      <link>/product.html</link>
+      <pubDate>Thu, 04 Jul 2019 17:33:16 +0800</pubDate>
+      
+      <guid>/product.html</guid>
+      <description>请点击下载：产品接入手册  介绍 Hugo是一个用Go语言编写的静态网站生成器，它使用起来非常简单，相对于Jekyll复杂的安装设置来说，Hugo仅需要一个二进制文件hugo(hugo.exe)即可轻松用于本地调试和生成静态页面。
+Hugo生成静态页面的效率很高，多篇博客文章生成几乎是瞬间完成的，而之前用Jekyll需要等待10秒左右。
+Hugo自带watch的调试模式，可以在我修改MarkDown文章之后切换到浏览器，页面会检测到更新并且自动刷新，呈现出最终效果，能极大的提高博客书写效率。再加上Hugo是使用Go语言编写，已经没有任何理由不使用Hugo来代替Jekyll作为个人博客站点生成器了。
+静态网站生成器 什么是静态网站生成器？如果追溯到最早的网站形式，那时候的网页都是静态的，即一个内容不变的html文件放在服务器上，人们通过互联网访问浏览的都是这个一成不变的页面。后来，人们发现，需要和网页进行交互，能根据用户的输入动态呈现出相应的内容，这就是动态网站。那，为什么现在又回归使用静态网站呢？特别是对于博客网站这种特殊的形式。我的理解是：
+ 访问速度提升。静态页面不需要像动态页面那样经常去查询数据库，而是直接将最终页面内容返回。 搜素引擎友好。便于搜索引擎索引，比如很多动态网站的页面地址是一样的，只是后面传入的参数不一样，容易让搜索引擎误认为是同一个页面。（虽然不会） 可以完全抛弃数据库，减少复杂度，将最复杂的一步交给静态网站生成器，自己只专注写作、生成、发布三个步骤。 博客文章可以以文本文件的方式（MarkDown）在本地维护管理，不需要像之前那样在网页的编辑器里提交到网站数据库。你可以方便的使用github管理你的博客文章，不会丢失，又能追溯到每一次的内容变更。  目前最流行的静态网站生成器是Jekyll，它是github创始人自己实现的一套ruby的静态网站生成器。一经推出，各个程序哥竞相效仿，一时间使用Jekyll搭建自己的博客变成了一件很高逼格的事情。</description>
+    </item>
+    
+    <item>
+      <title>Introduce</title>
+      <link>/introduce.html</link>
+      <pubDate>Thu, 04 Jul 2019 17:28:17 +0800</pubDate>
+      
+      <guid>/introduce.html</guid>
+      <description>介绍 hugo
+Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>wzero写作指南 wzero致力于中后台产品建设 业务中台 精细化管理系统开发；快速响应业务创新，降低业务探索成本；沉淀业务服务能力，降低业务服务的重复开发，最大程度共享服务，快速支撑企业的流程优化、变革。
+数据中台 整合各前后端系统数据能力，形成统一数据管理模型，盘点数据资源、规划数据资源、获取数据资源，并将所有数据资源进行完整呈现，最终与业务中台融合以驱动智慧运营与创新。
+技术中台 技术统一、能力共享，屏蔽不同系统的技术实现差异，为业务前台和业务中台提供稳定的技术保障。以技术中台为支撑，快速的构建业务系统，最终实现有效整合已满足客户创新的业务需求。</description>
+    </item>
+    
+  </channel>
+</rss>

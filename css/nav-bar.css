@@ -1,0 +1,114 @@
+.navbar-blue {
+    background-image: linear-gradient(-90deg, #1EA3FF  0%, #347EFF 100%);
+    border: 0 solid transparent;
+}
+
+.navbar-blue ul li .nav-tab {
+    color: white;
+}
+
+.navbar-blue ul a {
+    padding-top: 10px;
+}
+.navbar-blue .navbar-nav>li>a:hover{
+    color: #fff;
+}
+
+.navbar-blue ul li:hover {
+    background-color: rgba(255,255,255,.1);
+    border-radius: 4px;
+}
+
+.navbar-blue .navbar-brand {
+    padding: 10px 10px;
+}
+
+.navfixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navabsolute {
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#nav-bar {
+    border-radius: 0;
+}
+@media(min-width:768px) {
+    #nav-bar {
+        border-radius: 0;
+    }
+    .navbar-blue ul li {
+        height: 40px;
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+
+    .navbar-blue .navbar-brand {
+        padding: 15px 15px;
+    }
+}
+
+#nav-bar img {
+    width: 127px;
+    height: 30px;
+}
+
+.navbar-toggle {
+    float: left;
+    margin-right: 0;
+    border: 0 solid transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+#nav-bar .collapsed span:nth-of-type(1) {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    left: 0;
+    top: 0;
+}
+
+#nav-bar .collapsed span:nth-of-type(2) {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#nav-bar .collapsed span:nth-of-type(3) {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    left: 0;
+    top: 0;
+}
+
+
+#nav-bar button span:nth-of-type(1) {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: relative;
+    left: -6px;
+    top: 6px;
+}
+#nav-bar button span:nth-of-type(2) {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#nav-bar button span:nth-of-type(3) {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: relative;
+    left: 6px;
+    top: -6px;
+}

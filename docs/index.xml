@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on wzero文档</title>
+    <link>/docs.html</link>
+    <description>Recent content in Docs on wzero文档</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 04 Jul 2019 18:18:51 +0800</lastBuildDate>
+    
+	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publish</title>
+      <link>/docs/publish.html</link>
+      <pubDate>Thu, 04 Jul 2019 18:18:51 +0800</pubDate>
+      
+      <guid>/docs/publish.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Write</title>
+      <link>/docs/write.html</link>
+      <pubDate>Thu, 04 Jul 2019 18:18:40 +0800</pubDate>
+      
+      <guid>/docs/write.html</guid>
+      <description>文档编写 环境搭建 wzero平台基于 Hugo 开发，需要您预先在本地安装最新版Hugo，Hugo官方提供了非常详细的各平台（Mac OS、Windows、Linux等）安装方式，您可以根据官方教程自行安装。
+ 注意：wzero文档使用Git作为版本管理，请务必先确保本机已经按照好Git，如果没有安装，请去Git官网下载安装。
+ 不过，推荐使用我们提供的脚本来搭建文档编写环境，更加方便：
+1.下载对应系统安装脚本
+ Windows Linux Mac OS  2. 运行脚本创建项目
+ Windows下右键以管理员身份运行脚本 Linux或Mac下终端运行 bash eco-docs.sh 命令   注意：输入项目名建议使用项目英文简称，将用于创建项目文件夹
+ 3.浏览器访问项目文档
+创建项目后，会自动运行项目文档，打开浏览器访问 http://localhost:1313 查看文档。
+编写工具 可以使用任何您喜欢的文本编辑器来编写Markdown，如果您还不太了解Markdown，推荐您使用 Visual Studio Code，它是一个跨平台（支持Mac OS、Windows、Linux）的文本编辑器，对于Markdown也提供了非常友好的支持。
+快速上手 下面以Mac平台为例，演示文档创建及编写的整个过程：
+Step 1：创建文档 终端运行 bash eco-docs.sh
+会提示 please input your project name：，这里输入 eco-doc-demo，表示四海文档示例教程。
+接下来会提示 Preview now? 是否预览，输入 y 选择直接预览。
+浏览器访问 http://localhost:1313，出现如下界面，则表示示例文档创建成功。
+Step 2：修改文档名称  注意：用喜爱的编辑器导入整个示例文档项目，编辑文档内容。
+ 修改 /data/menu/menu.toml，修改内容如下：
+name = &amp;quot;wzero示例&amp;quot; description = &amp;quot;这是wzero文档的示例&amp;quot;  menu.</description>
+    </item>
+    
+    <item>
+      <title>Builtin</title>
+      <link>/docs/builtin.html</link>
+      <pubDate>Thu, 04 Jul 2019 18:18:28 +0800</pubDate>
+      
+      <guid>/docs/builtin.html</guid>
+      <description> 预制规则 支持Markdown wzero文档平台支持Markdown语法标签，请参考Markdown教程。
+兼容HTML Markdown中兼容HTML标签，可以利用HTML实现Markdown不支持的复杂功能。
+ 注意：由于Markdown编写比HTML更简单，强烈建议对于Markdown支持的功能不要使用HTML来代替实现。  预制引用 Markdown默认只提供Info类型引用，为了方便使用，我们预制了Warning、Danger、Success引用样式。
+Warning &amp;lt;blockquote class=&amp;quot;warning&amp;quot;&amp;gt; Warning &amp;lt;/blockquote&amp;gt;  Warning  Danger &amp;lt;blockquote class=&amp;quot;danger&amp;quot;&amp;gt; Danger &amp;lt;/blockquote&amp;gt;  Danger  Success &amp;lt;blockquote class=&amp;quot;success&amp;quot;&amp;gt; Success &amp;lt;/blockquote&amp;gt;  Success  Info &amp;gt; 引用  或者
+&amp;lt;blockquote&amp;gt; 引用 &amp;lt;/blockquote&amp;gt;  或者
+&amp;lt;blockquote class=&amp;quot;info&amp;quot;&amp;gt; 引用 &amp;lt;/blockquote&amp;gt;  引用  </description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/docs/markdown.html</link>
+      <pubDate>Thu, 04 Jul 2019 17:49:11 +0800</pubDate>
+      
+      <guid>/docs/markdown.html</guid>
+      <description>Markdown教程 标题 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题  以上标题分别对应着HTML中的&amp;lt;h1&amp;gt;、&amp;lt;h2&amp;gt;、&amp;lt;h3&amp;gt;、&amp;lt;h4&amp;gt;、&amp;lt;h5&amp;gt;、&amp;lt;h6&amp;gt;标签。
+强调 加粗 **这句话会被加粗** __这句话会被加粗__  加粗对应着HTML中的&amp;lt;strong&amp;gt;标签。
+###斜体
+*这句话会被斜体显示* _这句话会被斜体显示_  斜体对应着HTML中的&amp;lt;em&amp;gt;标签。
+无序列表 * Item 1 * Item 2 * Item 2a * Item 2b  或者
+- Item 1 - Item 2 - Item 2a - Item 2b  或者
+* Item 1 * Item 2 - Item 2a - Item 2b  或者</description>
+    </item>
+    
+    <item>
+      <title>Introduce</title>
+      <link>/docs/introduce.html</link>
+      <pubDate>Thu, 04 Jul 2019 17:46:11 +0800</pubDate>
+      
+      <guid>/docs/introduce.html</guid>
+      <description>介绍 wzero文档平台用于发布产品文档，提供一站式的产品文档解决方案，文档采用Markdown编写，编写简单、部署方便，wzero文档平台提供默认文档主题，主题也可以自由定制。·</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,118 @@
+.style-3 {
+    display: block;
+}
+@media(min-width: 768px) {
+    .style-3{
+        display: none;
+    }
+}
+
+.style-3 .nav {
+    position: fixed;
+    z-index: 9000;
+    right: 0;
+    top: 50px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+}
+
+.style-3 .nav--active .nav {
+    overflow: auto;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9fafb;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.nav__trigger {
+    display: block;
+    position: fixed;
+    width: 30px;
+    height: 25px;
+    right: 10px;
+    top: 13px;
+    z-index: 9000;
+}
+
+.nav--active .nav__trigger {
+    opacity: .5;
+}
+
+.nav__icon {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    -webkit-transition-property: background-color, -webkit-transform;
+    transition-property: background-color, -webkit-transform;
+    transition-property: background-color, transform;
+    transition-property: background-color, transform, -webkit-transform;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+}
+
+.nav__icon:before,
+.nav__icon:after {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 2px;
+    border-radius: 4px;
+    position: absolute;
+    background: #fff;
+    -webkit-transition-property: margin, -webkit-transform;
+    transition-property: margin, -webkit-transform;
+    transition-property: margin, transform;
+    transition-property: margin, transform, -webkit-transform;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+}
+
+.nav__icon:before {
+    margin-top: -10px;
+}
+
+.nav__icon:after {
+    margin-top: 10px;
+}
+
+.style-3 .nav {
+    width: 110%;
+    height: 92%;
+    padding-right: 80px;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.style-3 i {
+    display: none;
+}
+
+.style-3 .nav--active .nav {
+    -webkit-transform: translateX(20%);
+    transform: translateX(20%);
+}
+
+.style-3 .nav__icon {
+    background: rgba(0,0,0,0);
+}
+
+.style-3 .nav__icon:before {
+    margin-top: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.style-3 .nav__icon:after {
+    margin-top: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.style-3 .nav--active .nav__icon {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
