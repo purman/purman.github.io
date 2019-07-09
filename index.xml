@@ -55,7 +55,7 @@
 编写工具 可以使用任何您喜欢的文本编辑器来编写Markdown，如果您还不太了解Markdown，推荐您使用 Visual Studio Code，它是一个跨平台（支持Mac OS、Windows、Linux）的文本编辑器，对于Markdown也提供了非常友好的支持。
 快速上手 下面以Mac平台为例，演示文档创建及编写的整个过程：
 Step 1：创建文档 终端运行 bash eco-docs.sh
-会提示 please input your project name：，这里输入 eco-doc-demo，表示四海文档示例教程。
+会提示 please input your project name：，这里输入 eco-doc-demo，表示wzero文档示例教程。
 接下来会提示 Preview now? 是否预览，输入 y 选择直接预览。
 浏览器访问 http://localhost:1313，出现如下界面，则表示示例文档创建成功。
 Step 2：修改文档名称  注意：用喜爱的编辑器导入整个示例文档项目，编辑文档内容。
@@ -120,8 +120,8 @@ Hugo自带watch的调试模式，可以在我修改MarkDown文章之后切换到
       <pubDate>Thu, 04 Jul 2019 17:28:17 +0800</pubDate>
       
       <guid>/introduce.html</guid>
-      <description>介绍 hugo
-Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</description>
+      <description>介绍 hugo Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
+wzero WZero 是一个企业产品开发平台，抽象、封装的大量的应用标准服务及功能，以帮助企业产品研发、项目实施更加高效便捷，避免大量产品和项目重复造轮子带来的成本浪费，WZero平台主要包含业务中台和数据中台，目标是搭建一个可支持各种产品快速组建、开发的平台，可支持微服务的方便集成、组合重用。</description>
     </item>
     
     <item>
