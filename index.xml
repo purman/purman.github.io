@@ -120,8 +120,8 @@ Hugo自带watch的调试模式，可以在我修改MarkDown文章之后切换到
       <pubDate>Thu, 04 Jul 2019 17:28:17 +0800</pubDate>
       
       <guid>/introduce.html</guid>
-      <description>介绍 hugo Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
-wzero WZero 是一个企业产品开发平台，抽象、封装的大量的应用标准服务及功能，以帮助企业产品研发、项目实施更加高效便捷，避免大量产品和项目重复造轮子带来的成本浪费，WZero平台主要包含业务中台和数据中台，目标是搭建一个可支持各种产品快速组建、开发的平台，可支持微服务的方便集成、组合重用。</description>
+      <description>介绍 Wzero Doc Platform
+Wzero Doc Platform是wzero产品的文档平台，主要用来记录wzero搭建的过程及功能。该文档平台基于hugo搭建，Hugo是由Go语言实现的静态网站生成器，具有简单、易用、高效、易扩展、快速部署的特点。</description>
     </item>
     
     <item>
